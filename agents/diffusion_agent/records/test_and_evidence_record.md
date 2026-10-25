@@ -38,4 +38,4 @@ The contrast script checks saved outputs for invariant general/application/evide
 
 ## AI use and verification
 
-ChatGPT/Codex assisted with factor mapping, adversarial test design, responses, revision and code checks. Numerical and consequential historical claims were checked against the original FDA, Walgreens, Arizona, SEC and DOJ materials above. The saved responses are representative model-assisted analyses in this session; the package does not call an external model API and did not process live patient data.
+ChatGPT/Codex assisted with factor mapping, adversarial test design, responses and revision. Codex operated the local scaffold tools: it built the three prompt packets, validated the three saved JSON files, ran the contrast check and checked frozen-core integrity. These commands were rerun on the final `main` package. Numerical and consequential historical claims were checked against the original FDA, Walgreens, Arizona, SEC and DOJ materials above. The saved responses are representative model-assisted analyses in this session, not separate blinded API runs; the package does not call an external model API and did not process live patient data.
