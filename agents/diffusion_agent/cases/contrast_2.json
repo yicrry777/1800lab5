@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Generative-AI ambient clinical scribing",
+  "intended_application": "Drafting outpatient primary-care visit notes from clinician-patient conversation, with clinician review before signing",
+  "industry_sector": "U.S. ambulatory primary care",
+  "time_horizon": "Next 12 months",
+  "additional_context": "Evidence packet verified 2026-10-24: AMA 2026 Physician AI Survey (Jan 15-Feb 2, 2026; n=1,692 total, self-report; 81% any awareness/use of AI, NOT ambient-scribe prevalence; 88% rate safety/efficacy validation important, 86% privacy assurances): https://www.ama-assn.org/sites/ama-assn.org/files/2026-03/physician-ai-sentiment-report_0.pdf . Vanderbilt primary implementation report, JAMIA 2026, 33(2):457-461: ambient scribing available to over 2,400 ambulatory/ED clinicians on Jan 15, 2025; 1,223 had used it and 20.1% of all visit notes included it by Mar 31, 2025; one academic system, not national prevalence: https://academic.oup.com/jamia/article/33/2/457/8307782 . Afshar et al., NEJM AI, published 2025-11-26: randomized implementation among 66 volunteer clinicians across eight specialties in one health system; 27,092/71,487 notes (38%) used ambient AI; reduced note time by 0.36 h/day; selective sample, not diffusion prevalence: https://pmc.ncbi.nlm.nih.gov/articles/PMC12858090/ . No representative U.S. ambient-scribe adoption denominator or safety-net primary-care peer rate has been supplied. All organization characteristics here are scenario assumptions, not observed facts.",
+  "organization": "Hypothetical 40-clinician U.S. multispecialty outpatient network",
+  "business_need": "Reduce documentation burden while keeping workflow disruption limited",
+  "users_stakeholders": "Clinicians, patients, interpreters, privacy office, IT, quality team",
+  "adoption_posture": "Moderate fast follower; waits for a credible peer signal before piloting",
+  "capabilities_constraints": "One informatics lead, EHR sandbox and basic analytics; privacy review available; training time is constrained; no local multilingual validation yet",
+  "risk_consequence_context": "Incorrect notes and privacy/consent errors remain consequential; clinician retains sign-off authority",
+  "management_question": "What signals should trigger a limited primary-care pilot in the next year?"
+}
