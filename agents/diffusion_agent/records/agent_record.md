@@ -8,8 +8,9 @@
 | Assignment / specialist agent | Week 7, Assignment 5 / Emerging Technology Diffusion Agent |
 | Date | 2026-10-24, America/New_York |
 | GitHub repository | https://github.com/yicrry777/1800lab5 |
-| Branch | `codex/assignment-5-diffusion` |
+| Branch | `codex/assignment-5-diffusion` (development); `main` (published) |
 | Tested candidate commit | `ae54379d10ddcd2cd5bb77e5d54b8714f31c5471` |
+| Main merge commit | `e336a6652cf23ee0ed46ba2d8b9d4da5c03cd612` |
 | Frozen scaffold version | `MASY1800_ET_Agent_Scaffold_v1_0`; integrity checker passed |
 | Agent version | `0.4-student` |
 
