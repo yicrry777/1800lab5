@@ -1,8 +1,8 @@
-# Emerging Technology Diffusion Agent
+# Theranos Emerging Technology Diffusion Agent
 
-Assignment 5, v0.2. This specialist evaluates Rogers' adopter categories, five innovation attributes, diffusion forces, and context-specific pilot timing. It does not make the final adoption decision.
+Assignment 5, v0.4. This is a historical diffusion analysis of Theranos's claimed proprietary micro-volume multi-analyte platform. The primary organization is Theranos; Walgreens and a hypothetical independent clinical laboratory are contrast contexts. The agent distinguishes Theranos-branded service volume from actual use and validation of its proprietary analyzer. It does not propose current clinical deployment by the defunct company.
 
-From the repository root:
+From the repository root, actually run:
 
 ```sh
 python3 tools/check_frozen_core.py
@@ -15,4 +15,4 @@ python3 tools/validate_response.py agents/diffusion_agent/responses/contrast_2_r
 python3 agents/diffusion_agent/tests/check_diffusion_contrast.py
 ```
 
-Paste each generated packet from `work/` into ChatGPT to rerun interactively, save its JSON response, and validate again. The saved outputs and detailed source/test record are under `responses/` and `records/`. The case organizations are hypothetical; replace their inputs and supply current original evidence for a real organization.
+To rerun the model interactively, paste each generated `work/` packet into ChatGPT, save its JSON response, and run the validator and contrast check again. The [Agent Record](records/agent_record.md) and [evidence/test record](records/test_and_evidence_record.md) explain the bounded decision and limitations. The earlier ambient-scribe attempt is preserved only in Git history after the user changed the case to Theranos.

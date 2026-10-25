@@ -2,51 +2,72 @@
   "agent": {
     "name": "Emerging Technology Diffusion Agent",
     "specialty": "Rogers diffusion and context-sensitive timing",
-    "version": "0.2-student"
+    "version": "0.4-student"
   },
-  "analytical_question": "How far have generative-AI ambient scribes and primary-care note drafting diffused, what drives or inhibits spread, and what pilot timing follows for this organization?",
-  "general_et_finding": "Published U.S. health-system examples show ambient scribing moving beyond isolated experiments into large deployments, but the supplied evidence has no representative national denominator or comparable time series for ambient-scribe use. The U.S. market adopter category is therefore indeterminate; the cited health systems are examples of pioneering/early-adopter organizations, not proof that the market has reached the early majority. The AMA 2026 81% figure concerns any physician AI awareness/use, not ambient scribing.",
-  "application_finding": "Outpatient primary-care note drafting is demonstrated in multi-specialty ambulatory settings, but no supplied source estimates its U.S. primary-care or safety-net peer prevalence. Rogers factors — Relative advantage: a 66-clinician randomized implementation found 0.36 fewer note-writing hours/day, but local savings are unmeasured. Compatibility: EHR-connected workflows help; device requirements, consent, languages and note templates may hinder local fit. Complexity: setup, clinician editing and training remain work. Trialability: a small opt-in pilot can test workflow without committing to system-wide rollout. Observability: note-use share, time, corrections and clinician/patient feedback can be monitored, though actual local baselines are absent. Vanderbilt clinician champions and training promoted uptake; integration and privacy/safety validation are complementary assets and potential inhibitors. These are mechanisms or plausible transfers, not a measured local diffusion rate.",
+  "analytical_question": "How far did the Theranos proprietary multi-analyte platform, rather than the branded testing service, diffuse; what accelerated or inhibited it; and what historical timing implication followed for this organization?",
+  "general_et_finding": "Theranos promoted a proprietary finger-prick multi-analyte platform, but the supplied record does not document broad verified use by independent laboratories. One FDA substantial-equivalence decision covered a specified HSV-1 IgG assay and intended use, not broad multi-analyte capability. Arizona service volume and Walgreens center counts measure access to Theranos-branded tests, not use of Edison/miniLab. The SEC alleged most patient tests used modified or standard third-party analyzers; later DOJ trial evidence describes serious analyzer failures and voided tests. Theranos was the innovating supplier and Walgreens a channel partner. A national Rogers adopter category for the proprietary platform is indeterminate from these data; calling it early majority is unsupported. In hindsight its clinical diffusion attempt failed rather than becoming a validated mainstream platform.",
+  "application_finding": "Retail finger-prick multi-analyte clinical testing gained *service access*: Walgreens later closed 40 Arizona centers, and Arizona recorded about 1.5 million service tests to more than 175,000 people in 2013-2016, with about 10% voided or corrected. These counts cannot show platform penetration. Rogers factors — Relative advantage: less invasive, faster, cheaper testing was claimed, but broad accuracy and benefit were not independently established. Compatibility: clinical use required assay-specific validity, specimen integrity and CLIA-compliant laboratory processes; FDA reviewed only one specified HSV-1 assay, and its 2015 Form 483 recorded quality-system observations. Complexity: micro-volume handling, analyzer limits, quality control and third-party substitutions made the service harder than the simple marketing story. Trialability: controlled nonclinical, assay-by-assay analytical verification was possible; broad patient rollout was not a responsible trial. Observability: site and sales counts were visible while actual analyzer provenance and assay performance were opaque; later voids/corrections exposed the gap. Retail partner reach, publicity and investment accelerated attention and service access, while verification and regulatory concerns inhibited credible platform spread.",
   "evidence": [
     {
-      "claim": "In the 2026 physician survey, 81% reported any AI awareness/use; 88% rated trusted safety/efficacy validation and 86% privacy assurances important.",
-      "source_or_reference": "https://www.ama-assn.org/sites/ama-assn.org/files/2026-03/physician-ai-sentiment-report_0.pdf",
-      "date_or_recency": "Survey Jan 15-Feb 2, 2026; report Mar 2026; checked Oct 24, 2026",
-      "evidence_type": "Original voluntary U.S. physician self-report survey; 1,692 participants, item denominators vary",
-      "notes": "Broad AI and expressed prerequisites; not ambient-scribe use, representative prevalence, or demonstrated effectiveness."
+      "claim": "FDA found substantial equivalence for Theranos HSV-1 IgG assay K143236 with specified fingerstick and venous specimen uses and Theranos system; not a general multi-assay clearance.",
+      "source_or_reference": "https://www.accessdata.fda.gov/cdrh_docs/reviews/k143236.pdf",
+      "date_or_recency": "FDA decision July 2, 2015; checked October 24, 2026",
+      "evidence_type": "Original FDA assay-specific decision summary",
+      "notes": "Scope is one assay and intended use. Do not infer a broad multi-analyte platform clearance."
     },
     {
-      "claim": "After Vanderbilt made an EHR-integrated ambient scribe available to over 2,400 ambulatory/ED clinicians, 1,223 had used it and 20.1% of all visit notes involved it by Mar 31, 2025; leaders/champions and low-barrier training supported rollout.",
-      "source_or_reference": "https://academic.oup.com/jamia/article/33/2/457/8307782",
-      "date_or_recency": "Rollout Jan 15-Mar 31, 2025; JAMIA 2026; checked Oct 24, 2026",
-      "evidence_type": "Original single-academic-health-system operational case report",
-      "notes": "Ever-use and note-share differ; ambulatory plus ED; not a national or safety-net denominator. No causal attribution of adoption to champions."
+      "claim": "FDA inspection recorded Nanotainer listing and complaint-handling observations.",
+      "source_or_reference": "https://www.fda.gov/files/about%20fda/published/Theranos--Inc.--Newark--CA-483-Issued-09-16-2015.pdf",
+      "date_or_recency": "Inspection Aug 25-Sep 16, 2015; checked October 24, 2026",
+      "evidence_type": "Original FDA Form 483 inspection observations",
+      "notes": "Form 483 explicitly says observations are not final agency compliance determinations."
     },
     {
-      "claim": "In a randomized implementation with 66 volunteer ambulatory clinicians, 27,092 of 71,487 notes (38%) used ambient AI and note-writing time fell by 0.36 h/day.",
-      "source_or_reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12858090/",
-      "date_or_recency": "Study Aug 2024-Mar 2025; NEJM AI Nov 26, 2025; checked Oct 24, 2026",
-      "evidence_type": "Original single-system pragmatic randomized trial; eight specialties",
-      "notes": "Trial estimates benefit/feasibility among eligible volunteers; 38% is within-trial note share, not market penetration or primary-care prevalence."
+      "claim": "Walgreens announced termination and closure of all 40 Arizona Theranos Wellness Centers after voided results and CMS concerns.",
+      "source_or_reference": "https://www.walgreensbootsalliance.com/news-media/press-releases/2016/walgreens-terminates-relationship-with-theranos-will-be-closing-operations-at-all-40-theranos-wellness-centers-in-arizona",
+      "date_or_recency": "Announcement June 12-13, 2016; checked October 24, 2026",
+      "evidence_type": "Original retail partner announcement",
+      "notes": "Centers delivered branded services; their count does not measure proprietary analyzer use."
+    },
+    {
+      "claim": "Arizona reported about 1.5 million Theranos tests sold to over 175,000 Arizonans in 2013-2016, with roughly 10% later voided or corrected.",
+      "source_or_reference": "https://www.azag.gov/sites/default/files/publications/2024-10/2017AnnualReport.pdf",
+      "date_or_recency": "2017 annual report describing 2013-2016; checked October 24, 2026",
+      "evidence_type": "Original state attorney-general annual report of settlement",
+      "notes": "Arizona only; service transactions, not independent-lab adoption or proprietary analyzer runs."
+    },
+    {
+      "claim": "SEC alleged the proprietary analyzer handled only a small number of tests and most patient tests used modified or standard third-party analyzers.",
+      "source_or_reference": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-24069",
+      "date_or_recency": "SEC litigation release March 19, 2018; checked October 24, 2026",
+      "evidence_type": "Original civil enforcement release and allegations",
+      "notes": "Theranos and Holmes settled without admitting or denying the allegations; label this as the SEC allegation, not a criminal conviction."
+    },
+    {
+      "claim": "DOJ reports trial evidence of analyzer failures and Theranos voiding tests run on its analyzer; it reports Balwani conviction and Holmes investor-fraud conviction.",
+      "source_or_reference": "https://www.justice.gov/usao-ndca/pr/theranos-president-sentenced-more-12-years-fraud-jeopardized-patient-health-and-bilked",
+      "date_or_recency": "DOJ release December 2022 describing trials and prior conduct; checked October 24, 2026",
+      "evidence_type": "Original federal prosecution report of trial evidence and verdicts",
+      "notes": "Hindsight after the 2015 decision point. Holmes was acquitted of patient-related charges in her trial; do not collapse distinct verdicts."
     }
   ],
   "contrary_evidence_or_limitations": [
-    "No representative U.S. ambient-scribe or comparable primary-care peer adoption series is supplied; Rogers market stage cannot be assigned confidently.",
-    "The AMA self-report instrument covers AI broadly and changed across waves; it cannot establish ambient-scribe prevalence.",
-    "Single-system implementation and volunteer trial may not transfer to resource-limited, multilingual safety-net care; local effect, cost and error rates are unknown."
+    "No reliable denominator or time series for external use of the proprietary Edison/miniLab multi-analyte platform is supplied; service transactions cannot establish platform adopter categories.",
+    "The FDA HSV-1 determination is narrow; it does not validate the advertised broad test menu. FDA Form 483 is an inspection observation, and SEC civil claims must be labeled allegations.",
+    "The 2017-2022 findings are retrospective evidence and should not be attributed to what a decision maker could know in 2015; contemporaneous independent assay validation is not supplied."
   ],
-  "organization_specific_finding": "This fast-following network has basic integration and analytic capacity but limited training and no multilingual validation. It can prepare a pilot sooner than the conservative network, yet should wait for a relevant peer signal and finish local checks. The same external evidence remains unchanged.",
-  "confidence_and_uncertainty": "Moderate-low confidence in a 3-6 month pilot window because peer data and language validation are missing; low confidence in national market stage. Organization details are hypothetical.",
-  "value_opportunity_implication": "A bounded pilot could test local note-time savings and fit; published time savings are a hypothesis for this network.",
-  "risk_governance_implication": "Require privacy and consent workflow, clinician sign-off, training, note-correction tracking and language-specific validation.",
-  "recommendation_management_implication": "Prepare now and consider a limited opt-in pilot in about 3-6 months if a comparable primary-care peer report, local integration and privacy review, and multilingual checks are satisfactory; this is not a purchase or rollout verdict.",
+  "organization_specific_finding": "A conservative independent clinical lab in 2015 had no proprietary analyzer performance data in this hypothetical procurement screen. It could independently verify claims only if Theranos supplied assay-specific methods and access. Its posture changes the timing of evaluation, not the evidence or clinical validity.",
+  "confidence_and_uncertainty": "High confidence that the supplied public evidence cannot justify a broad multi-analyte procurement; local lab characteristics are hypothetical. No documented licensing offer or independent validation dataset is supplied.",
+  "value_opportunity_implication": "A genuinely accurate finger-prick platform might reduce collection burden; that value is conditional and unmeasured here.",
+  "risk_governance_implication": "The lab director should demand method comparison, precision, sample stability, QC/proficiency process, CLIA scope and result provenance before any patient testing.",
+  "recommendation_management_implication": "At a 2015 procurement screen, reject clinical use and any public rollout. An immediate document review and nonclinical bench assessment could begin only with full assay-specific data and device access; patient testing has no date until independent validation and compliance gates pass.",
   "change_monitoring_triggers": [
-    "Comparable primary-care peer report gives actual active-use and note-share denominators.",
-    "Local EHR/consent/privacy and multilingual tests pass.",
-    "Training capacity and note-quality monitoring are funded."
+    "Full assay-specific technical files and independent method-comparison data become accessible.",
+    "The lab verifies its own QC, sample handling and CLIA requirements.",
+    "A valid regulatory determination covers each intended claim rather than one unrelated assay."
   ],
   "abstention_or_more_information_needed": [
-    "Abstain from a national diffusion-stage label.",
-    "Do not set a live pilot date until peer and local checks meet preset criteria."
+    "Do not estimate independent-lab adoption from Arizona service transactions.",
+    "Abstain from a live-use date without assay-specific evidence and authorization."
   ]
 }

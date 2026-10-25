@@ -1,18 +1,18 @@
 {
-  "agent": {"name": "Emerging Technology Diffusion Agent", "specialty": "Rogers diffusion and context-sensitive timing", "version": "0.1-student"},
-  "analytical_question": "How far has ambient clinical scribing diffused and when should this safety-net network pilot it?",
-  "general_et_finding": "Ambient AI scribing is entering the early majority because 81% of surveyed physicians use AI and Vanderbilt rapidly expanded ambient scribing.",
-  "application_finding": "For outpatient primary-care note drafting, relative advantage is reduced documentation burden; compatibility depends on EHR integration; complexity is moderate; trialability is high through a pilot; observability is high through note-time metrics.",
-  "organization_specific_finding": "A conservative safety-net network should follow peers and wait until ambient scribing is more established before considering a pilot.",
+  "agent": {"name": "Emerging Technology Diffusion Agent", "specialty": "Rogers diffusion and context-sensitive timing", "version": "0.3-student"},
+  "analytical_question": "How widely did Theranos blood testing spread, and should Theranos expand retail testing?",
+  "general_et_finding": "Theranos's proprietary multi-analyte platform entered the early majority: Arizona sold about 1.5 million Theranos tests, and the FDA cleared the Theranos system.",
+  "application_finding": "Retail finger-prick testing showed strong relative advantage, compatibility, trialability and observability; complexity was manageable because Walgreens operated 40 centers.",
+  "organization_specific_finding": "As an aggressive innovator, Theranos should scale quickly through Walgreens to capture the diffusion opportunity.",
   "evidence": [
-    {"claim": "81% of surveyed physicians reported any awareness or use of AI", "source_or_reference": "https://www.ama-assn.org/sites/ama-assn.org/files/2026-03/physician-ai-sentiment-report_0.pdf", "date_or_recency": "2026 survey", "evidence_type": "self-report survey", "notes": "This is broad AI, not ambient-scribe use."},
-    {"claim": "20.1% of visit notes at one system used ambient scribing by March 31, 2025", "source_or_reference": "https://academic.oup.com/jamia/article/33/2/457/8307782", "date_or_recency": "2025 observation, 2026 publication", "evidence_type": "single-system implementation", "notes": "Cannot establish national prevalence."}
+    {"claim": "About 1.5 million Theranos tests were sold in Arizona", "source_or_reference": "https://www.azag.gov/sites/default/files/publications/2024-10/2017AnnualReport.pdf", "date_or_recency": "2013-2016 service sales; 2017 report", "evidence_type": "State attorney-general retrospective report", "notes": "Number of proprietary-analyzer tests is not stated."},
+    {"claim": "FDA found substantial equivalence for a Theranos HSV-1 IgG assay", "source_or_reference": "https://www.accessdata.fda.gov/cdrh_docs/reviews/k143236.pdf", "date_or_recency": "2015-07-02", "evidence_type": "FDA assay decision summary", "notes": "One specified assay and intended use."}
   ],
-  "contrary_evidence_or_limitations": ["No representative ambient-scribe adoption denominator is available."],
-  "confidence_and_uncertainty": "Moderate confidence in early-majority stage; local peer data remain limited.",
-  "value_opportunity_implication": "Documentation time may fall.",
-  "risk_governance_implication": "Keep clinician sign-off and assess privacy.",
-  "recommendation_management_implication": "Wait for more peer evidence before beginning a pilot.",
-  "change_monitoring_triggers": ["New peer adoption evidence"],
-  "abstention_or_more_information_needed": ["Local EHR integration and privacy review"]
+  "contrary_evidence_or_limitations": ["Later SEC allegations question how many patient tests used Theranos's analyzer."],
+  "confidence_and_uncertainty": "Moderate confidence that retail service demand validates the proprietary platform.",
+  "value_opportunity_implication": "Scale the retail network quickly.",
+  "risk_governance_implication": "Monitor laboratory quality during scale-up.",
+  "recommendation_management_implication": "Continue broad Walgreens expansion in 2015-2016.",
+  "change_monitoring_triggers": ["Retail test growth slows"],
+  "abstention_or_more_information_needed": ["More comparative accuracy data would improve confidence"]
 }
